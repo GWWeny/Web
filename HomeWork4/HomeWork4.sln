@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork4——Web-based random number implementation", "HomeWork4\HomeWork4——Web-based random number implementation.csproj", "{91BA3709-AE98-44AF-9592-08FB6BDFE00A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91BA3709-AE98-44AF-9592-08FB6BDFE00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91BA3709-AE98-44AF-9592-08FB6BDFE00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91BA3709-AE98-44AF-9592-08FB6BDFE00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91BA3709-AE98-44AF-9592-08FB6BDFE00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D14C224-6B71-4EDA-9C59-AFF6FBEFA0A0}
+	EndGlobalSection
+EndGlobal

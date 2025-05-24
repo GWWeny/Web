@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息收集表单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>个人信息收集</h1>
+    <form id="infoForm">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">邮箱：</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">电话：</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="address">地址：</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="age">年龄：</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <button type="submit">提交</button>
+    </form>
+
+    <h2>您输入的信息：</h2>
+    <div id="infoDisplay">
+        <p id="displayName"></p>
+        <p id="displayEmail"></p>
+        <p id="displayPhone"></p>
+        <p id="displayAddress"></p>
+        <p id="displayAge"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

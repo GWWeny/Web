@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4\u2014\u2014Web-based random number implementation.csproj|d:\\microsoft visual studio2022\\source\\homework4\\homework4\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4\u2014\u2014Web-based random number implementation.csproj|solutionrelative:homework4\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4.csproj|D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\homework4\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4.csproj|solutionrelative:homework4\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4.csproj|D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\homework4\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{91BA3709-AE98-44AF-9592-08FB6BDFE00A}|HomeWork4\\HomeWork4.csproj|solutionrelative:homework4\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "script.js",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\script.js",
+              "RelativeDocumentMoniker": "HomeWork4\\script.js",
+              "ToolTip": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\script.js",
+              "RelativeToolTip": "HomeWork4\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-11T14:57:41.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Styles.css",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\Styles.css",
+              "RelativeDocumentMoniker": "HomeWork4\\Styles.css",
+              "ToolTip": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\Styles.css",
+              "RelativeToolTip": "HomeWork4\\Styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-11T14:57:25.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\index.html",
+              "RelativeDocumentMoniker": "HomeWork4\\index.html",
+              "ToolTip": "D:\\Microsoft Visual Studio2022\\source\\HomeWork4\\HomeWork4\\index.html",
+              "RelativeToolTip": "HomeWork4\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-11T14:57:11.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

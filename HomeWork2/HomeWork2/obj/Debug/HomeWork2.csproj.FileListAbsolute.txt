@@ -1,0 +1,7 @@
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\bin\Debug\HomeWork2.exe.config
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\bin\Debug\HomeWork2.exe
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\bin\Debug\HomeWork2.pdb
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\obj\Debug\HomeWork2.csproj.AssemblyReference.cache
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\obj\Debug\HomeWork2.csproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\obj\Debug\HomeWork2.exe
+D:\Microsoft Visual Studio2022\source\HomeWork2\HomeWork2\obj\Debug\HomeWork2.pdb
