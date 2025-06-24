@@ -127,19 +127,35 @@ namespace Information_dissemination_system
             Response.Redirect(Request.RawUrl);
         }
 
-        protected void gvCategories_RowDeleting(object sender, System.Web.UI.WebControls.GridViewDeleteEventArgs e)
+        protected void gvCategories_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             int id = Convert.ToInt32(gvCategories.DataKeys[e.RowIndex].Value);
-
             string connStr = ConfigurationManager.ConnectionStrings["SQLServerConnectionString"].ConnectionString;
+
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string sql = "DELETE FROM Categories WHERE Id=@Id";
-                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                conn.Open();
+
+                // 检查该栏目下是否存在信息
+                string checkSql = "SELECT COUNT(*) FROM Posts WHERE CategoryId = @CategoryId";
+                using (SqlCommand checkCmd = new SqlCommand(checkSql, conn))
                 {
-                    cmd.Parameters.AddWithValue("@Id", id);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
+                    checkCmd.Parameters.AddWithValue("@CategoryId", id);
+                    int count = (int)checkCmd.ExecuteScalar();
+
+                    if (count > 0)
+                    {
+                        lblMessage.Text = "该栏目下还有信息内容，无法删除，请先删除该栏目下的所有信息。";
+                        return;
+                    }
+                }
+
+                // 没有关联信息，可以删除
+                string deleteSql = "DELETE FROM Categories WHERE Id=@Id";
+                using (SqlCommand deleteCmd = new SqlCommand(deleteSql, conn))
+                {
+                    deleteCmd.Parameters.AddWithValue("@Id", id);
+                    deleteCmd.ExecuteNonQuery();
                 }
             }
 
@@ -149,6 +165,7 @@ namespace Information_dissemination_system
             // 页面刷新
             Response.Redirect(Request.RawUrl);
         }
+
 
         protected void btnBack_Click(object sender, EventArgs e)
         {
